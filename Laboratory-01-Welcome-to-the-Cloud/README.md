@@ -41,7 +41,7 @@ Apply proper documentation practices commonly used by cloud professionals.
 |mkdir Documents Notes Reports Screenshots |Create the workspace folder structure |
 |nano <filename>.md |Create and edit Markdown files |
 |ls |List directory contents |
-|cat <filename>.md |cat <filename>.md |
+|cat <filename>.md |Display file contents (used for screenshot evidence) |
 
 ## Skills Learned
 - Linux user management — creating a new user with a home directory, granting sudo privileges, and switching between accounts using su -.
