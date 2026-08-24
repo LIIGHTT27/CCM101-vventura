@@ -11,11 +11,7 @@
 
 ## 👋 Welcome
 
-Hi, I'm **Victor Ventura**, a student in **CCM101 – Cloud Computing**. This repository is my **Cloud Computing Portfolio** — a living, version-controlled record of every laboratory activity, script, screenshot, and reflection I complete throughout the semester.
-
-By the end of the course, it will demonstrate hands-on skills across:
-
-`Linux` · `Git & GitHub` · `Docker` · `Kubernetes` · `Cloud Infrastructure` · `Monitoring` · `Enterprise System Administration`
+Hi, I'm **Victor Juvenile M. Ventura**, a student at **University of Eastern Pangasinan** taking **CCM101 – Cloud Computing**. This repository is my **Cloud Computing Portfolio** — a living, version-controlled record of every laboratory activity, script, screenshot, and reflection I complete throughout the semester.
 
 ---
 
@@ -25,6 +21,10 @@ By the end of the course, it will demonstrate hands-on skills across:
 |---|---|---|---|
 | 01 | [Welcome to the Cloud](./Laboratory-01-Welcome-to-the-Cloud) | Linux basics, GitHub setup | ✅ |
 | 02 | [Build the Cloud Infrastructure Blueprint](./Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint) | Compute, storage, networking, cloud providers | ✅ |
+| 03 | **Wala pa** | **Pending** | ⌛ |
+| 04 | **Wala pa** | **Pending** | ⌛ |
+| 05 | **Grabe umabot ng 05** | **Pending** | ⌛ |
+| 06 | **Grabe nga yan** | **Pending** | ⌛ |
 
 *(New rows will be added here as each mission is completed.)*
 
