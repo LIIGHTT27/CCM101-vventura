@@ -3,10 +3,10 @@
 ---
 
 ### 🧑 Name
-
+**Victor Juvenile M. Ventura**
 
 ### 🎓 Course / Year Level
-
+I'm a $4^{th}$ year Bachelor of Science in Information Technology student.
 
 ### ☁️ Why I'm Taking Cloud Computing
 
