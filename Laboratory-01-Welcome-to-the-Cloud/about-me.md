@@ -1,26 +1,22 @@
-# About Me
+# 👋 About Me
 
-## Hi! My name is
-Victor Juvenile M. Ventura
+---
 
-## Course / Year Level
-I am a 4th year Bachelor of Science in Information Technology Student in University of Eastern Pangasinan
+### 🧑 Name
 
-## Why I'm Taking Cloud Computing
-To save money, scale systems instantly, and work from anywhere. Updside I'm looking forward to is I get to make my own schedule.
 
-## Interests / Hobbies
-Games(Mostly Single Player)
-Lifting weights (Self-Proclaimed Gym Rat)
-Watching:
-	Animes
-	Movies
-	TV Series
-Reading:
-	Comics
-	Mangas
-	Light Novels
-	Self-Improvement Stuff
+### 🎓 Course / Year Level
 
-## Career Goals
-To be financially free
+
+### ☁️ Why I'm Taking Cloud Computing
+
+
+### 🎨 Interests / Hobbies
+
+
+### 🚀 Career Goals
+
+
+---
+📁 *Part of the [CCM101 Cloud Computing Portfolio](../../README.md) — Laboratory 1: Welcome to the Cloud*
+
