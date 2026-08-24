@@ -1,13 +1,46 @@
-# CCM101-vventura-Cloud Computing Portfolio
+# ☁️ CCM101 — Cloud Computing Portfolio
+### *Victor Ventura · College of Information Technology · University of Eastern Pangasinan*
 
-Hi, I'm Victor Juvenile M. Ventura, a student at the
-University of Eastern Pangasinan, College of Information Technology.
+<p align="left">
+  <img src="https://img.shields.io/badge/Course-CCM101-blue" />
+  <img src="https://img.shields.io/badge/Focus-Cloud%20Computing-informational" />
+  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow" />
+</p>
 
-This repository serves as my Cloud Computing Portfolio for the semester.
-It contains all laboratory activities, documentation, scripts,
-screenshots, and reflections completed throughout the course, covering
-topics such as Linux, Git, Docker, Kubernetes, cloud infrastructure,
-monitoring, and enterprise system administration.
+---
 
-## Laboratory Activities
-- [Laboratory 01 - Welcome to the Cloud](./Laboratory-01-Welcome-to-the-Cloud)
+## 👋 Welcome
+
+Hi, I'm **Victor Ventura**, a student in **CCM101 – Cloud Computing**. This repository is my **Cloud Computing Portfolio** — a living, version-controlled record of every laboratory activity, script, screenshot, and reflection I complete throughout the semester.
+
+By the end of the course, it will demonstrate hands-on skills across:
+
+`Linux` · `Git & GitHub` · `Docker` · `Kubernetes` · `Cloud Infrastructure` · `Monitoring` · `Enterprise System Administration`
+
+---
+
+## 🗺️ Mission Log
+
+| # | Laboratory Activity | Focus | Status |
+|---|---|---|---|
+| 01 | [Welcome to the Cloud](./Laboratory-01-Welcome-to-the-Cloud) | Linux basics, GitHub setup | ✅ |
+| 02 | [Build the Cloud Infrastructure Blueprint](./Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint) | Compute, storage, networking, cloud providers | ✅ |
+
+*(New rows will be added here as each mission is completed.)*
+
+---
+
+## 🧭 How This Portfolio Is Organized
+
+```
+CCM101-vventura
+├── README.md                                          ← you are here
+├── Laboratory-01-Welcome-to-the-Cloud/
+└── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
+```
+
+Each laboratory folder contains its own `README.md`, supporting Markdown documentation, and a `screenshots/` folder with evidence of completed work.
+
+---
+⭐ *Thanks for stopping by — feel free to explore each mission above.*
+
