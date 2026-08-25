@@ -36,5 +36,5 @@
 *(Optional 1-sentence personal takeaway: if you had to pick one provider for a startup today, which would it be and why?)*
 
 ---
-📁 *Part of the [CCM101 Cloud Computing Portfolio](../../README.md) — Laboratory 2: Build the Cloud Infrastructure Blueprint*
+📁 *Part of the [CCM101 Cloud Computing Portfolio](../README.md) — Laboratory 2: Build the Cloud Infrastructure Blueprint*
 📚 *Sources: [AWS Products](https://aws.amazon.com/products/) · [Azure Products](https://azure.microsoft.com/en-us/products) · [Google Cloud Products](https://cloud.google.com/products)*
