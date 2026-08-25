@@ -57,5 +57,5 @@ graph LR
 ```
 
 ---
-📁 *Part of the [CCM101 Cloud Computing Portfolio](../../README.md) — Laboratory 2: Build the Cloud Infrastructure Blueprint*
+📁 *Part of the [CCM101 Cloud Computing Portfolio](../README.md) — Laboratory 2: Build the Cloud Infrastructure Blueprint*
 
