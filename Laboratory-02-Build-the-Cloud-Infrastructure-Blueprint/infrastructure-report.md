@@ -128,4 +128,4 @@ ubuntu
 This server is provisioned as a lightweight sandbox environment: a single CPU core, ~1.9 GiB of RAM, and a 19 GiB root disk with healthy free space (70% available). This is sufficient for learning, testing, and running small services, but would need to be scaled up (additional CPU cores, more RAM, larger disk) before hosting a production workload for an actual client migration.
 
 ---
-📁 *Part of the [CCM101 Cloud Computing Portfolio](../../README.md) — Laboratory 2: Build the Cloud Infrastructure Blueprint*
+📁 *Part of the [CCM101 Cloud Computing Portfolio](../README.md) — Laboratory 2: Build the Cloud Infrastructure Blueprint*
