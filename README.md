@@ -41,6 +41,3 @@ CCM101-vventura
 
 Each laboratory folder contains its own `README.md`, supporting Markdown documentation, and a `screenshots/` folder with evidence of completed work.
 
----
-⭐ *Thanks for stopping by — feel free to explore each mission above.*
-
