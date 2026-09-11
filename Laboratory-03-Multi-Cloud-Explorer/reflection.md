@@ -19,10 +19,4 @@ This mission also improved my GitHub Cloud Computing Portfolio because I added r
 
 ---
 
-## 📊 Word Count Check
-
-> **Word count: approximately 300 words**
-
----
-
 *"Be the pilot of AI, not the passenger."* ✈️
