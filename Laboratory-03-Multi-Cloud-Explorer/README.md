@@ -62,4 +62,3 @@
 
 ---
 
-*"A cloud engineer doesn't simply choose the most popular cloud provider — they choose the one that best solves the client's problem."* 🚀
