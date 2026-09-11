@@ -35,7 +35,14 @@
 > *Every cloud starts with a server. Let's inspect one.*
 
 📸 **Terminal Evidence:**
-![KillerCoda Terminal](screenshots/killercoda-terminal.png)
+![KillerCoda Terminal 1](screenshots/killercoda-terminal-1.png)
+*Caption: [e.g. OS and CPU info]*
+
+![KillerCoda Terminal 2](screenshots/killercoda-terminal-2.png)
+*Caption: [e.g. Memory usage]*
+
+![KillerCoda Terminal 3](screenshots/killercoda-terminal-3.png)
+*Caption: [e.g. Disk space]*
 
 ### ☁️ If This Server Moved to the Cloud...
 
