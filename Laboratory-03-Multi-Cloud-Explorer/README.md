@@ -9,9 +9,9 @@
 
 | Field | Details |
 |---|---|
-| 👨‍💻 Student | *[Your Name]* |
+| 👨‍💻 Student | Victor Juvnile M.Ventura |
 | 🏫 Course | CCM101 – Cloud Computing |
-| 📅 Date Completed | *[Date]* |
+| 📅 Date Completed | 09/11/2026 |
 | 🗂️ Repository | `Laboratory-03-Multi-Cloud-Explorer` |
 
 ---
@@ -34,15 +34,6 @@
 
 > *Every cloud starts with a server. Let's inspect one.*
 
-### 🔍 System Snapshot
-
-| Spec | Command Used | Result |
-|---|---|---|
-| 🖥️ Operating System | `cat /etc/os-release` | *[fill in]* |
-| ⚙️ CPU Info | `lscpu` | *[fill in]* |
-| 🧠 Memory | `free -h` | *[fill in]* |
-| 💽 Disk Space | `df -h` | *[fill in]* |
-
 📸 **Terminal Evidence:**
 ![KillerCoda Terminal](screenshots/killercoda-terminal.png)
 
@@ -52,24 +43,23 @@
 
 | Provider | Recommended Service | Why It Fits |
 |---|---|---|
-| 🟧 AWS | *[e.g. EC2 instance type]* | *[your reasoning]* |
-| 🔵 Azure | *[e.g. VM size]* | *[your reasoning]* |
-| 🔴 GCP | *[e.g. Compute Engine type]* | *[your reasoning]* |
+| 🟧 AWS | **Amazon EC2** | EC2 can provide a virtual Linux server with configurable CPU, memory, and storage resources. |
+| 🔵 Azure | **Azure Virtual Machines** | Azure Virtual Machines can host Linux operating systems and allow the resources to be adjusted based on workload requirements. |
+| 🔴 GCP | **Compute Engine** | Compute Engine provides configurable virtual machines that can run Linux and can be scaled according to the server's requirements. |
 
 ---
 
 ## ✅ Mission Status
 
-- [ ] Checkpoint 1 — Portfolio expanded
-- [ ] Checkpoint 2 — Three platforms researched
-- [ ] Checkpoint 3 — Platforms compared
-- [ ] Checkpoint 4 — Client recommendations made
-- [ ] Checkpoint 5 — Services matched
-- [ ] Checkpoint 6 — Decision matrix built
-- [ ] Checkpoint 7 — Linux investigation complete
-- [ ] Checkpoint 8 — Reflection written
+- [x] Checkpoint 1 — Portfolio expanded
+- [x] Checkpoint 2 — Three platforms researched
+- [x] Checkpoint 3 — Platforms compared
+- [x] Checkpoint 4 — Client recommendations made
+- [x] Checkpoint 5 — Services matched
+- [x] Checkpoint 6 — Decision matrix built
+- [x] Checkpoint 7 — Linux investigation complete
+- [x] Checkpoint 8 — Reflection written
 
 ---
 
 *"A cloud engineer doesn't simply choose the most popular cloud provider — they choose the one that best solves the client's problem."* 🚀
-
