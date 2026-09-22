@@ -22,9 +22,11 @@ Hi, I'm **Victor Juvenile M. Ventura**, a student at **University of Eastern Pan
 | 01 | [Welcome to the Cloud](./Laboratory-01-Welcome-to-the-Cloud) | Linux basics, GitHub setup | ✅ |
 | 02 | [Build the Cloud Infrastructure Blueprint](./Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint) | Compute, storage, networking, cloud providers | ✅ |
 | 03 | **Wala pa** | **Pending** | ⌛ |
-| 04 | **Wala rin** | **Pending** | ⌛ |
+| 04 | [The Cloud-Native Engineer](./Laboratory-04-Cloud-Native-Engineer) | Docker, containers, deploying Nginx | ✅ |
 | 05 | **Grabe umabot ng 05** | **Pending** | ⌛ |
 | 06 | **Grabe nga yan** | **Pending** | ⌛ |
+
+*(New rows will be added here as each mission is completed.)*
 
 *(New rows will be added here as each mission is completed.)*
 
