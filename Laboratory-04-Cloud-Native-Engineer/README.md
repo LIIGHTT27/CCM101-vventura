@@ -5,17 +5,17 @@
 [![Docker](https://img.shields.io/badge/Docker-29.1.3-2496ED)](#)
 [![Status](https://img.shields.io/badge/Status-Complete-brightgreen)](#)
 
-### *From renting servers to running services — welcome to the container era.*
+### *From renting servers to running services — this is where I actually started using containers.*
 
 ---
 
 ## 🚀 Mission Overview
 
-Plot twist: after surviving the multi-cloud gauntlet, I got promoted to **CloudNova Technologies'** Cloud-Native Engineering Team. New title, new problem — a client stuck with slow, RAM-hungry Virtual Machines who kept hearing the word *"Docker"* thrown around in meetings without knowing what it actually does.
+For this one, I'm supposedly part of CloudNova Technologies' Cloud-Native Engineering Team, and the client's complaint is something I think a lot of people run into: their Virtual Machines take forever to boot and eat up way more RAM than they'd like. They kept hearing the word "Docker" thrown around but nobody on their end could actually explain what it does or why it matters.
 
-So I hopped into the **KillerCoda Playground** (Ubuntu 24.04.5 LTS, Docker 29.1.3), pulled up a terminal, and did what any self-respecting cloud-native engineer does: deployed a live Nginx web server inside a container, timed it against a mental image of a VM boot screen, and won.
+So I opened up the KillerCoda Playground (Ubuntu 24.04.5 LTS, Docker 29.1.3 already installed) and just worked through it — checked that Docker was actually running, pulled the Nginx image, ran it as a container, and hit it with curl to prove it was serving a real page. The whole thing, start to finish, probably took less time than a single VM would've needed just to boot.
 
-**Lesson of the mission:** *a traditional sysadmin manages servers — a cloud-native engineer manages the services running on them.*
+The thing that stuck with me most: I'm not managing a server anymore, I'm managing a service that happens to be running somewhere. That's a different mindset than I expected going in.
 
 ---
 
@@ -25,53 +25,49 @@ So I hopped into the **KillerCoda Playground** (Ubuntu 24.04.5 LTS, Docker 29.1.
 - [x] Access a Docker-enabled cloud environment using KillerCoda
 - [x] Execute fundamental Docker CLI commands
 - [x] Pull, run, manage, and terminate a containerized application (Nginx)
-- [x] Document container operations professionally in Markdown
-- [x] Keep leveling up the GitHub Cloud Computing Portfolio
+- [x] Document what I did clearly enough that someone else could repeat it
+- [x] Keep building out my GitHub Cloud Computing Portfolio
 
 ---
 
-## ⌨️ Docker Commands Executed
+## ⌨️ Docker Commands I Ran
 
-| # | Command | What it did |
+| # | Command | What I was doing |
 |---|---------|-------------|
-| 1 | `docker --version` | Confirmed Docker `29.1.3` was installed |
-| 2 | `docker info` | Verified environment status — Ubuntu 24.04.5 LTS, overlay2 driver, 0 containers/images at start |
-| 3 | `docker pull nginx` | Pulled the official Nginx image from Docker Hub |
-| 4 | `docker run -d -p 8080:80 --name my-nginx nginx` | Ran Nginx in detached mode as container `c2132a8d157d`, mapped host port 8080 → container port 80 |
-| 5 | `curl http://localhost:8080` | Got back the full "Welcome to nginx!" page — server confirmed live |
-| 6 | `docker ps` | Listed the running `my-nginx` container, status `Up About a minute` |
-| 7 | `docker stop my-nginx` | Stopped the running container |
-| 8 | `docker ps -a` | Verified status changed to `Exited (0) 8 seconds ago` |
-| 9 | `docker rm my-nginx` | Removed the container completely |
+| 1 | `docker --version` | Checking that Docker `29.1.3` was actually installed |
+| 2 | `docker info` | Getting a status check on the environment — Ubuntu 24.04.5 LTS, overlay2 driver, nothing running yet |
+| 3 | `docker pull nginx` | Downloading the official Nginx image from Docker Hub |
+| 4 | `docker run -d -p 8080:80 --name my-nginx nginx` | Starting the container in the background as `my-nginx`, mapping my host's port 8080 to the container's port 80 |
+| 5 | `curl http://localhost:8080` | Hitting the server to see if it actually responded — it did, full "Welcome to nginx!" page |
+| 6 | `docker ps` | Confirming `my-nginx` was up and running |
+| 7 | `docker stop my-nginx` | Shutting the container down |
+| 8 | `docker ps -a` | Double-checking it actually stopped |
+| 9 | `docker rm my-nginx` | Deleting the container for good |
 
-*(Full explanations with raw output live in [`docker-deployment.md`](./docker-deployment.md).)*
-
----
-
-## 🧠 Skills Learned
-
-- How to spin up a fully working web server in **seconds**, not minutes
-- The real meaning of port mapping and why containers don't talk to the outside world unless you let them
-- The difference between *stopping* and *removing* a container — and why that distinction matters for data
-- Reading `docker info` output to sanity-check an environment before deploying anything
-- Why containers are the backbone of modern DevOps workflows
+*(I broke down what each command actually does in more detail in [`docker-deployment.md`](./docker-deployment.md).)*
 
 ---
 
-## 🧩 Challenges Encountered
+## 🧠 What I Actually Learned
 
-Biggest "wait, why isn't this working" moment: making sure `curl` pointed at the **host** port (8080), not the container's internal port (80) — a classic first-timer mix-up that `docker ps`'s `PORTS` column cleared up instantly once I actually read it properly.
+Honestly the biggest thing was just seeing the speed difference in real time — I'm used to VMs taking a while, and watching a full web server come online in under a second was kind of a "oh, okay, THAT'S why people use this" moment. Beyond that, I understood port mapping way better after actually using it than I did just reading about it, and I finally get why `docker stop` and `docker rm` are two separate commands instead of one — because sometimes you want to pause something, not erase it.
 
 ---
 
-## 🖼️ Evidence
+## 🧩 Where I Got Stuck
 
-| Screenshot | Description |
+I'll admit I almost ran `curl` against port 80 instead of 8080 out of habit, which obviously didn't work since 80 isn't exposed on the host. Looking at the `PORTS` column in `docker ps` output made it click — that's literally where the mapping is spelled out, I just had to actually read it.
+
+---
+
+## 🖼️ Screenshots
+
+| Screenshot | What it shows |
 |---|---|
-| `screenshots/docker-version.png` | `docker --version` + `docker info` output confirming Docker 29.1.3 on Ubuntu 24.04.5 LTS |
-| `screenshots/nginx-running.png` | `docker pull nginx`, `docker run`, and the successful `curl` response |
-| `screenshots/container-lifecycle.png` | Full lifecycle: `docker ps` → `docker stop` → `docker ps -a` → `docker rm` |
+| `screenshots/docker-version.png` | `docker --version` and `docker info` output confirming Docker 29.1.3 on Ubuntu 24.04.5 LTS |
+| `screenshots/nginx-running.png` | Pulling the image, running the container, and the successful `curl` response |
+| `screenshots/container-lifecycle.png` | The full lifecycle — list, stop, verify, remove |
 
 ---
 
-*Next mission: who knows. But the containers are running, the client is impressed, and the portfolio keeps growing.* 🌱
+*Onto whatever mission comes next. The client's servers are faster now, at least in theory.* 🌱
