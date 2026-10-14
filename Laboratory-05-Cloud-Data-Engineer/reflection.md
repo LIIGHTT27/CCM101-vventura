@@ -1,8 +1,6 @@
 # 🪞 Mission Reflection
 ### *Laboratory 5 — The Cloud Data Engineer*
 
-> 🎓 250–350 words, in your own voice. This is the one file that's 100% you.
-
 ---
 
 ## 💭 Reflection
