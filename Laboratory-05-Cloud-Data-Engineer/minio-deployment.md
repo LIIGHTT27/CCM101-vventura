@@ -77,6 +77,4 @@ docker ps
 ![Bucket Upload](screenshots/minio-bucket-upload.png)
 *Caption: The `client-photos` bucket with the uploaded file.*
 
----
 
-*Server deployed. Bucket created. File uploaded. Mission logged.* 🫡
