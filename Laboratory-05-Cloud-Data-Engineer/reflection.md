@@ -17,6 +17,3 @@
 
 [Paragraph 5 — Linux confidence. How is your confidence with the Linux command line growing? Mention something specific from this lab, like the multi-line `docker run` command or checking `docker ps`.]
 
----
-
-*"Be the pilot of AI, not the passenger."* ✈️
