@@ -15,7 +15,7 @@
 
 ## 💬 Why Object Storage for the Client's Photos
 
-basta
+The main requirement is to store a large number of user-uploaded images that are usually saved once and rarely modified. These images must also be accessible quickly to users worldwide through URLs. Object storage services such as Amazon S3, Azure Blob Storage, and Google Cloud Storage are designed for this purpose. They can handle growing amounts of data, are generally more cost-effective for large collections of images, and allow files to be delivered directly through HTTP URLs or a CDN without passing through the application server. By storing only the image URLs in the database, the database stays smaller and performs more efficiently while object storage handles the actual image files.
 
 ---
 
