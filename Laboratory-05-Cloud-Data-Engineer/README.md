@@ -88,6 +88,4 @@ Using the KillerCoda Ubuntu Playground, I deployed **MinIO** with a single `dock
 - [x] Checkpoint 5 — Technical documentation written
 - [x] Checkpoint 6 — Reflection written
 
----
 
-*"Be the pilot of AI, not the passenger."* ✈️
