@@ -7,13 +7,12 @@
 
 ## 💭 Reflection
 
-[Paragraph 1 — Object vs. block storage. Why is object storage a better fit for millions of photos than a traditional block storage hard drive? Think about scaling, unique IDs, and not being tied to one disk or one server.]
+When I started this laboratory, I thought storing photos was simply a matter of saving them on a hard drive. After learning about different storage methods, I discovered that object storage is especially useful for handling large numbers of images. Block storage divides data into fixed-size blocks that must be managed and assembled by the system, making it useful for applications such as databases. Object storage, on the other hand, saves each photo as an individual object with a unique identifier and metadata. This makes files easier to organize and retrieve, especially when dealing with millions of images. It can also scale to accommodate very large amounts of data, depending on the storage system's capacity and configuration.
 
-[Paragraph 2 — Docker. How did using Docker make deploying MinIO easier? Think about what you did NOT have to do: install it manually, configure it by hand, or set up dependencies.]
+Deploying MinIO through Docker was a simple and convenient experience. Instead of installing and configuring every component manually, I used a single docker run command to start the service. I learned how to configure the username and password through environment variables, map the necessary ports, and access the MinIO web console using my browser. Docker also made it easier to remove and recreate the container when needed, although persistent storage is important to keep data safe when a container is removed.
 
-[Paragraph 3 — Buckets. What is a "bucket" in cloud storage? Explain it in your own words, using the `client-photos` bucket you made as the example.]
+I also learned that a bucket is a container used to organize objects in object storage. Although it is similar to a folder, it serves as a top-level storage location rather than a traditional directory. For this activity, I created a bucket named client-photos for the client's photo-sharing application and kept it private so that access would be restricted to authorized users, subject to the configured permissions.
 
-[Paragraph 4 — Keeping data safe. How do you think large companies make sure object storage data isn't lost if a physical server crashes? Think about copies stored on multiple servers or locations.]
+Another important lesson was the role of replication and data durability in cloud storage. Large storage systems can maintain copies of data across multiple devices or locations to reduce the risk of losing files when hardware fails. For example, Amazon S3 is designed for very high durability, commonly described as 99.999999999% (11 nines). This helped me understand why reliable storage involves more than simply saving files on one server.
 
-[Paragraph 5 — Linux confidence. How is your confidence with the Linux command line growing? Mention something specific from this lab, like the multi-line `docker run` command or checking `docker ps`.]
-
+Overall, this laboratory improved my confidence in using the Linux command line. At first, I was worried about entering commands because I thought a small mistake could damage the system. However, using commands such as docker pull, docker run, and docker ps helped me become more comfortable with the terminal. I still check my commands before executing them, but I now have a better understanding of how Docker and object storage work together to support cloud applications.
