@@ -5,17 +5,6 @@
 
 ---
 
-## 🧭 Mission Log
-
-| Field | Details |
-|---|---|
-| 👨‍💻 Student | Victor Juvenile M. Ventura |
-| 🏫 Course | CCM101 – Cloud Computing |
-| 📅 Date Completed | [MM/DD/YYYY] |
-| 🗂️ Repository | `Laboratory-05-Cloud-Data-Engineer` |
-
----
-
 ## 🚀 Mission Overview
 
 A client is building a photo-sharing app and needs somewhere to keep millions of user-uploaded images. They can't store them inside the web server container, because containers are ephemeral — once a container is removed, its data goes with it. My job was to build a proof-of-concept object storage environment.
