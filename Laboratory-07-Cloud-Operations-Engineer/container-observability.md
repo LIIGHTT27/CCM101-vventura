@@ -1,16 +1,14 @@
 # 🔭 Container Observability
 ### *Logs Tell the Story, Metrics Show the Strain*
 
-> 🎙️ *"When something breaks, logs are the security camera footage."*
-
 ---
 
 ## 🧪 Traffic I Generated
 
 | Request | Count | Expected result |
-|---|---|---|
-| `curl http://localhost:8080` | 3 | HTTP 200 |
-| `curl http://localhost:8080/hidden-admin-page` | 1 | HTTP 404 |
+|---|---:|---|
+| `curl http://localhost:8080` | 3 | HTTP 200 OK |
+| `curl http://localhost:8080/hidden-admin-page` | 1 | HTTP 404 Not Found |
 
 ---
 
@@ -19,12 +17,12 @@
 From `docker logs client-website`:
 
 ```text
-[paste the single access-log line that shows the 404]
+2026/10/26 19:22:16 [error] 29#29: *2 open() "/usr/share/nginx/html/hidden-admin-page" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /hidden-admin-page HTTP/1.1", host: "localhost:8080"
 ```
 
 ### Why logs matter for troubleshooting
 
-[Write your own 2 sentences. Ideas: logs record exactly what was requested and how the server responded, and they let you find the cause of a failure after the fact instead of guessing.]
+Logs record the requests received by the server and show how it responds, making it easier to identify errors. They help troubleshoot problems by providing evidence of what happened instead of relying on guesses.
 
 ---
 
@@ -34,30 +32,31 @@ From `docker stats` at the time of my screenshot:
 
 | Metric | `client-website` |
 |---|---|
-| 🧠 Memory Usage | **[exact value, e.g. 4.5MiB]** |
-| ⚙️ CPU % | **[exact value, e.g. 0.00%]** |
+| 🧠 Memory Usage | **2.727 MiB / 1.859 GiB** |
+| ⚙️ CPU % | **0.00%** |
 
-[Add one sentence on what these numbers tell the client about their worry that the server will run out of memory.]
+These metrics show that the container is using very little memory and CPU, so there is no current sign that it is close to running out of memory.
 
 ---
 
 ## 📸 Evidence
 
 ![Install Nginx](screenshots/install-nginx.png)
-*Caption: Deploying `client-website`.*
+
+*Caption: Deploying the `client-website` container using the `nginx:latest` image and port mapping `8080:80`.*
 
 ![Simulation 1](screenshots/simulation1.png)
-*Caption: Three successful requests.*
+
+*Caption: The default Nginx welcome page is accessible through `localhost:8080`, confirming that the web server is running.*
 
 ![Simulation 2](screenshots/simulation2.png)
-*Caption: The 404 response.*
+
+*Caption: Requesting `/hidden-admin-page` returns HTTP 404 Not Found because the requested page does not exist.*
 
 ![Docker Logs](screenshots/docker-logs.png)
-*Caption: Access logs with three 200s and one 404.*
+
+*Caption: Nginx logs showing successful HTTP 200 requests and the missing-page error.*
 
 ![Container Metrics](screenshots/container-metrics.png)
-*Caption: Live `docker stats` output.*
 
----
-
-*Traffic sent. Logs read. Metrics checked. Mission logged.* 🫡
+*Caption: Live `docker stats` output showing low CPU and memory usage.*
