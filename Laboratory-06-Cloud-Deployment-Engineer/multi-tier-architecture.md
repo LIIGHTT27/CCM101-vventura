@@ -34,6 +34,7 @@ A two-tier architecture splits an application into two layers that each do one j
 ## 🤔 Why Separate Them?
 
 Separating the web server and database into different containers is a better approach because each one can be maintained, updated, or scaled independently without affecting the other. If the university has more students and the database becomes slower, we can increase its resources without changing the web server. Also, if the web server crashes or gets hacked, the database and its information remain isolated. This setup improves security because users cannot directly access the database. Before this lesson, I thought putting everything in one container was easier, but I now understand that separating them makes the system more secure, reliable, and professional. It is similar to having different departments in a company, where each department has its own responsibilities instead of one person doing everything.
+
 ---
 
 ## 🏆 Verdict
