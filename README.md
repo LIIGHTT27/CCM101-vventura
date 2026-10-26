@@ -23,10 +23,11 @@ Hi, I'm **Victor Juvenile M. Ventura**, a student at **University of Eastern Pan
 | 02 | [Build the Cloud Infrastructure Blueprint](./Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint) | Compute, storage, networking, cloud providers | ✅ |
 | 03 | [Multi-Cloud Explorer](./Laboratory-03-Multi-Cloud-Explorer) | AWS, Azure, and GCP comparison, client recommendations | ✅ |
 | 04 | [The Cloud-Native Engineer](./Laboratory-04-Cloud-Native-Engineer) | Docker, containers, deploying Nginx | ✅ |
-| 05 | **Grabe umabot ng 05** | **Pending** | ⌛ |
-| 06 | **Grabe nga yan** | **Pending** | ⌛ |
-
-*(New rows will be added here as each mission is completed.)*
+| 05 | [The Cloud Data Engineer](./Laboratory-05-Cloud-Data-Engineer) | Block/File/Object storage, MinIO, buckets | ✅ |
+| 06 | [The Cloud Deployment Engineer](./Laboratory-06-Cloud-Deployment-Engineer) | Docker Compose, multi-tier apps, Nextcloud + MariaDB | ✅ |
+| 07 | **Grabe umabot ng 07** | **Pending** | ⌛ |
+| 08 | **Malapit na, 08 na** | **Pending** | ⌛ |
+| 09 | **Last na ba 'to? 09** | **Pending** | ⌛ |
 
 *(New rows will be added here as each mission is completed.)*
 
@@ -38,8 +39,14 @@ Hi, I'm **Victor Juvenile M. Ventura**, a student at **University of Eastern Pan
 CCM101-vventura
 ├── README.md                                          ← you are here
 ├── Laboratory-01-Welcome-to-the-Cloud/
-└── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
+├── Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/
+├── Laboratory-03-Multi-Cloud-Explorer/
+├── Laboratory-04-Cloud-Native-Engineer/
+├── Laboratory-05-Cloud-Data-Engineer/
+├── Laboratory-06-Cloud-Deployment-Engineer/
+├── Laboratory-07-[Title]/                             ← coming soon
+├── Laboratory-08-[Title]/                             ← coming soon
+└── Laboratory-09-[Title]/                             ← coming soon
 ```
 
 Each laboratory folder contains its own `README.md`, supporting Markdown documentation, and a `screenshots/` folder with evidence of completed work.
-
