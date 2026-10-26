@@ -25,7 +25,7 @@ Hi, I'm **Victor Juvenile M. Ventura**, a student at **University of Eastern Pan
 | 04 | [The Cloud-Native Engineer](./Laboratory-04-Cloud-Native-Engineer) | Docker, containers, deploying Nginx | ✅ |
 | 05 | [The Cloud Data Engineer](./Laboratory-05-Cloud-Data-Engineer) | Block/File/Object storage, MinIO, buckets | ✅ |
 | 06 | [The Cloud Deployment Engineer](./Laboratory-06-Cloud-Deployment-Engineer) | Docker Compose, multi-tier apps, Nextcloud + MariaDB | ✅ |
-| 07 | **Grabe umabot ng 07** | **Pending** | ⌛ |
+| 07 | [The Cloud Operations Engineer](./Laboratory-07-Cloud-Operations-Engineer) | Monitoring, logs, metrics, Docker observability | ✅ |
 | 08 | **Malapit na, 08 na** | **Pending** | ⌛ |
 | 09 | **Last na ba 'to? 09** | **Pending** | ⌛ |
 
@@ -44,7 +44,7 @@ CCM101-vventura
 ├── Laboratory-04-Cloud-Native-Engineer/
 ├── Laboratory-05-Cloud-Data-Engineer/
 ├── Laboratory-06-Cloud-Deployment-Engineer/
-├── Laboratory-07-[Title]/                             ← coming soon
+├── Laboratory-07-Cloud-Operations-Engineer/
 ├── Laboratory-08-[Title]/                             ← coming soon
 └── Laboratory-09-[Title]/                             ← coming soon
 ```
