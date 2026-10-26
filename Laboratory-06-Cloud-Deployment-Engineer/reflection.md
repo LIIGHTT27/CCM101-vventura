@@ -1,8 +1,6 @@
 # 🪞 Mission Reflection
 ### *Laboratory 6 — The Cloud Deployment Engineer*
 
-> 🎓 250–350 words, in your own voice. This is the one file that's 100% you.
-
 ---
 
 ## 💭 Reflection
