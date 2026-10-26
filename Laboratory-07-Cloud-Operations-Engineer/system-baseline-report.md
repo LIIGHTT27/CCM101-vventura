@@ -1,8 +1,6 @@
 # 📊 System Baseline Report
 ### *Know the Server Before You Trust the Application*
 
-> 🎙️ *"You can't tell something is wrong if you never measured what 'normal' looks like."*
-
 ---
 
 ## 🖥️ Host Baseline
@@ -31,6 +29,3 @@ Checking disk space before a traffic surge is important because logs, temporary 
 
 *Caption: `df -h` output showing the main filesystem `/dev/vda1` with 19 GB total storage, 5.5 GB used, and 13 GB available.*
 
----
-
-*Baseline recorded. Now I know what normal looks like.* 🫡
