@@ -40,9 +40,3 @@ curl http://localhost:8080
 - Documenting technical configurations in Markdown
 - Organizing lab work in a GitHub portfolio repository
 
-## Evidence
-| Screenshot | Description |
-|---|---|
-| `screenshots/vulnerable-app-running.png` | Nginx app responding to curl before the firewall |
-| `screenshots/firewall-activated.png` | UFW active with Default Deny policy |
-| `screenshots/firewall-port-allowed.png` | Numbered rules and a successful curl on port 8080 |
