@@ -72,17 +72,17 @@ All five containers share a dedicated bridge network (`cloudnova-network`) and a
 
 ```plain
 CCM101-vventura
-├── 📄 README.md                                                 <-- [Primary Interface]
-├── 📁 Laboratory-01-Welcome-to-the-Cloud/                      <-- [Linux & Git Setup]
-├── 📁 Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/  <-- [Cloud Arch Blueprint]
-├── 📁 Laboratory-03-Multi-Cloud-Explorer/                      <-- [AWS / Azure / GCP]
-├── 📁 Laboratory-04-Cloud-Native-Engineer/                     <-- [Docker Containerization]
-├── 📁 Laboratory-05-Cloud-Data-Engineer/                       <-- [MinIO & Object Storage]
-├── 📁 Laboratory-06-Cloud-Deployment-Engineer/                 <-- [Docker Compose Multi-Tier]
-├── 📁 Laboratory-07-Cloud-Operations-Engineer/                 <-- [Logs & Observability]
-├── 📁 Laboratory-08-Cloud-Security-Engineer/                   <-- [UFW Hardening & Security]
-├── 📁 Laboratory-09-Cloud-Automation-Engineer/                 <-- [Bash & Cron Automation]
-└── 📁 Laboratory-10-Enterprise-Cloud-Architect/                <-- [Capstone: Full Infrastructure]
+├── 📄 README.md                                                 
+├── 📁 Laboratory-01-Welcome-to-the-Cloud/                      
+├── 📁 Laboratory-02-Build-the-Cloud-Infrastructure-Blueprint/  
+├── 📁 Laboratory-03-Multi-Cloud-Explorer/                      
+├── 📁 Laboratory-04-Cloud-Native-Engineer/                     
+├── 📁 Laboratory-05-Cloud-Data-Engineer/                       
+├── 📁 Laboratory-06-Cloud-Deployment-Engineer/                 
+├── 📁 Laboratory-07-Cloud-Operations-Engineer/                 
+├── 📁 Laboratory-08-Cloud-Security-Engineer/                   
+├── 📁 Laboratory-09-Cloud-Automation-Engineer/               
+└── 📁 Laboratory-10-Enterprise-Cloud-Architect/                
     ├── 📄 README.md
     ├── 🐳 docker-compose.yml
     ├── ⚙️ automation-script.sh
